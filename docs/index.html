@@ -1,0 +1,64 @@
+<!DOCTYPE>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>开发文档</title>
+	<link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css">
+</head>
+
+<body>
+	<div id="docute"></div>
+	<script src="https://unpkg.com/docute@4/dist/docute.js"></script>
+	<script>
+		new Docute({
+			target: '#docute',
+			nav: [{
+					title: '主页',
+					link: '/'
+				},
+				{
+					title: 'GitHub',
+					link: 'https://github.com/intret'
+				}
+			],
+			sidebar: [{
+				title: 'Linux',
+				links: [{
+						title: 'shell',
+						link: '/linux/shell'
+					},
+					{
+						title: 'Linux 网络管理',
+						link: '/linux/network'
+					},
+
+				]
+			}, {
+				title: 'macOS',
+				links: [{
+						title: 'macOS 网络管理',
+						link: '/macos/network.md'
+					},
+
+				]
+			}, {
+				title: 'Python',
+				links: [{
+						title: 'Python 基础',
+						link: '/python/python-common.md'
+					},
+					{
+						title: 'Python Wheel',
+						link: '/python/python-wheel.md'
+					}
+
+				]
+			}],
+			highlight: ['typescript', 'go', 'pascal']
+		})
+	</script>
+</body>
+
+</html>
