@@ -12,6 +12,8 @@ curl ipinfo.io/ip
 curl ipecho.net/plain
 curl www.trackip.net/i
 ```
+只有第一个可用。
+
 ## scp 文件上传下载命令
 
 ### 文件上传
